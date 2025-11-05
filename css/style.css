@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+html, body{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-image: url(/img/yasuo-back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    background-position: center center;
+}
+
+.background-amarelo{
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-image: linear-gradient( to top,  #F8F8AF, #00000028);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -3;
+}
+
+header{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    width: 99vw;
+    height: 69px;
+    justify-content: space-between;
+    margin-top: 21px;
+    align-items: center;
+    padding: 0px 30px;
+    font-family: "Monda", sans-serif;
+    font-size: 20px;
+    font-variant-caps: petite-caps;
+}
+
+nav{
+    margin-left: 25vw;
+}
+
+ul{
+    display: flex;
+    gap: 52px;
+    color: white;
+}
+
+.fake-header{
+    position: absolute;
+    z-index: -1;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.583);
+    width: 99vw;
+    height: 69px;
+    left: 50%;
+    top: 21px;
+    transform: translateX(-50%);
+    backdrop-filter: blur(13px);
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px white;
+}
+
+figure{
+    display: flex;
+
+}
+
+.yasuo-front img{
+    z-index: -2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 480px;
+}
+
+button{
+    top: 80%;
+    position: absolute;
+    left: 50%; 
+
+    transform: translateX(-50%);
+    width: 188px;
+    height: 46px;
+    background-color: #56B5E9;
+    border:2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+h2{
+    position: relative;
+    font-size: 3vw;
+    color: white;
+    z-index: -4;
+}
+
+.japones{
+    position: relative;
+    z-index: -4;
+}
+
+h1{
+    color: white;
+    font-size: 9vw;
+}
+
+p{
+    color: white;
+    text-align: right;
+    font-size: 30px;
+}
+
+.rota, .dificuldade{
+    margin-left: 20vw;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.legenda-principal{
+    text-align: center;
+    font-size: 20px;
+}
+
+.legenda-secundaria{
+    text-align: center;
+}
