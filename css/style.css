@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Monda", sans-serif;
+
 }
 
 ul,ol,li{
@@ -48,7 +50,7 @@ header{
     margin-top: 21px;
     align-items: center;
     padding: 0px 30px;
-    font-family: "Monda", sans-serif;
+
     font-size: 20px;
     font-variant-caps: petite-caps;
 }
@@ -96,10 +98,10 @@ main{
     display: flex;
     width: 100vw;
     height: 100vh;
-    justify-content: left;
+    justify-content: space-evenly;
     align-items: center;
+    align-content: center;
     flex-direction: row-reverse;
-    gap: 480px;
 }
 
 button{
@@ -126,6 +128,7 @@ h2{
 .japones{
     position: relative;
     z-index: -4;
+
 }
 
 h1{
@@ -144,6 +147,18 @@ p{
     margin-top: 30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+}
+
+.rota, .dificuldade img{
+    width: 60px;
+}
+
+.rota, .dificuldade figcaption{
+    width: fit-content;
+    text-align: center;
 }
 
 .legenda-principal{
@@ -153,4 +168,29 @@ p{
 
 .legenda-secundaria{
     text-align: center;
+}
+
+.conteudo-esquerda{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    gap: 40px;
+}
+
+.conteudo-direita{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 17%;
+    left: 60%;
+    gap: 40px;
+}
+
+p, h1, h2{
+    text-shadow: -1px 5px 6px rgba(0, 0, 0, 0.335);
 }
