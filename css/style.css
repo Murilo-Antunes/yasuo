@@ -22,7 +22,7 @@ html, body{
 }
 
 body{
-    background-image: url(/../img/yasuo-back.jpg);
+    background-image: url(../img/yasuo-back.jpg);
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
